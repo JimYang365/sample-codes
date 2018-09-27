@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 04 ProcessInfo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/ProcessInfo.res" /d "_DEBUG" "E:\!PrgApps4\04-ProcessInfo\ProcessInfo.rc"" 
+Creating temporary file "D:\windows\temp\RSP30B6.tmp" with contents
+[
+/nologo /MD /W4 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/04 ProcessInfo.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\!PrgApps4\04-ProcessInfo\ProcessInfo.cpp"
+]
+Creating command line "xicl6.exe @D:\windows\temp\RSP30B6.tmp" 
+Creating temporary file "D:\windows\temp\RSP30B7.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"..\x86\Debug/04 ProcessInfo.pdb" /debug /machine:I386 /out:"..\x86\Debug/04 ProcessInfo.exe" /pdbtype:sept 
+".\Debug\ProcessInfo.obj"
+".\Debug\ProcessInfo.res"
+]
+Creating command line "xilink6.exe @D:\windows\temp\RSP30B7.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+ProcessInfo.cpp
+Linking...
+xilink6: executing 'C:\PROGRA~1\MICROS~2\VC98\Bin\link.exe'
+
+
+
+<h3>Results</h3>
+04 ProcessInfo.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 25 Spreadsheet - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\yangqi\LOCALS~1\Temp\RSP4DCE.tmp" with contents
+[
+/nologo /MD /W4 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/25 Spreadsheet.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\!PrgApps4\25-Spreadsheet\Spreadsheet.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\yangqi\LOCALS~1\Temp\RSP4DCE.tmp" 
+<h3>Output Window</h3>
+Compiling...
+Spreadsheet.cpp
+Creating temporary file "C:\DOCUME~1\yangqi\LOCALS~1\Temp\RSP4DCF.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"..\x86\Debug/25 Spreadsheet.pdb" /debug /machine:I386 /out:"..\x86\Debug/25 Spreadsheet.exe" /pdbtype:sept 
+".\Debug\Spreadsheet.obj"
+".\Debug\Spreadsheet.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\yangqi\LOCALS~1\Temp\RSP4DCF.tmp"
+<h3>Output Window</h3>
+Linking...
+Creating command line "bscmake.exe /nologo /o"..\x86\Debug/25 Spreadsheet.bsc"  ".\Debug\Spreadsheet.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+25 Spreadsheet.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
